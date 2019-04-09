@@ -12,3 +12,4 @@ sudo apt-get update -y;
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io;
 docker pull tensorflow/tensorflow:latest-gpu-jupyter;
 docker -it -P tensorflow/tensorflow:latest-gpu-jupyter bash;
+#will probably port this to a dockerfile
